@@ -14,10 +14,10 @@ var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'line',
     data: {
-        labels: ['1', '2', '3', '4', '5', '6'],
+        labels: [],
         datasets: [{
             label: 'Light Value Trending',
-            data: [12, 19, 3, 5, 2, 3],
+            data: [],
             backgroundColor: [
                 'rgba(255, 159, 64, 0.2)'
             ],
