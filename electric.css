@@ -44,6 +44,7 @@ body, html {
                 visibility: collapse;
                 transition: visibility 0.5s, opacity 0.3s; }
         #page-wrapper #main-content-wrapper {
+            padding-right: 72px;
             padding-left: 72px;
             padding-top: 12px;
             width: 100%;
